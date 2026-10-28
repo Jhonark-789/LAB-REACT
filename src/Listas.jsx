@@ -4,9 +4,9 @@ import { useState } from "react";
 const Listas = () => {
 
     const frutas = [
-        {id: 1, nombre: '30 secconds to mars', imagen: 'img1.jpg'},
-        {id: 2, nombre: 'Radiohead Creep', imagen: 'img2.jpg'},
-        {id: 3, nombre: 'Linkin Park', imagen: 'img3.jpg'},
+        {id: 1, nombre: 'Breaking Bengamin', imagen: 'imagen1.jpg'},
+        {id: 2, nombre: 'Oscar Mulero', imagen: 'imagen2.jpg'},
+        {id: 3, nombre: 'Frontera', imagen: 'imagen3.jpg'},
     ];
     const [total, setTotal]= useState(0);
     const [busqueda, setBusqueda] = useState("");
